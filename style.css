@@ -45,6 +45,7 @@ h4 {
 
 #MH1Btn {
     color: #50EEEE;
+    display: block;
     background-color: black;
     border: 20px solid transparent;
     border-image: url(Btn-MH1.png) 20 20 round;
@@ -56,6 +57,7 @@ h4 {
 
 #MHPBtn {
     color: #ffffff;
+    display: block;
     background-color: black;
     border: 20px solid transparent;
     border-image: url(Btn-MHP.png) 20 20 round;
