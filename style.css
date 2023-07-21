@@ -1,5 +1,6 @@
 body {
     background-color: #404040;
+    background-image: url(BGSite-MH1.png);
     color: #e4e4e4;
     line-height: 1.5;
     font-size: 20px;
@@ -44,7 +45,7 @@ h4 {
 }
 
 #MH1Btn {
-    color: #50EEEE;
+    color: #ffffff;
     display: block;
     background-color: black;
     border: 20px solid transparent;
@@ -69,4 +70,14 @@ h4 {
 
 p {
     text-align: justify;
+}
+
+a {
+    background-color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#links {
+    text-align: center;
 }
