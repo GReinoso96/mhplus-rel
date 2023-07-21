@@ -1,0 +1,70 @@
+body {
+    background-color: #404040;
+    color: #e4e4e4;
+    line-height: 1.5;
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto auto;
+    font-family: "Arial", helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#MH1Box {
+    color: #e4e4e4;
+    background-color: black;
+    border: 24px solid transparent;
+    border-image: url(Border-MH1.png) 24 24 round;
+    background-image: url(BG-MH1.png);
+    background-repeat: round;
+    background-clip: padding-box;
+}
+
+#DarkBox {
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 3px 3px #3C3C3C;
+    text-decoration: underline;
+    text-decoration-color: #AFAF00;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5%;
+}
+
+h4 {
+    text-shadow: 3px 3px #3C3C3C;
+    text-decoration: underline;
+    text-decoration-color: #AFAF00;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5%;
+}
+
+#MH1Btn {
+    color: #50EEEE;
+    background-color: black;
+    border: 20px solid transparent;
+    border-image: url(Btn-MH1.png) 20 20 round;
+    background-clip: padding-box;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#MHPBtn {
+    color: #ffffff;
+    background-color: black;
+    border: 20px solid transparent;
+    border-image: url(Btn-MHP.png) 20 20 round;
+    background-clip: padding-box;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    text-align: justify;
+}
