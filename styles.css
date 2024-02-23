@@ -1,0 +1,120 @@
+* {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: fit-content;
+    text-align: center;
+}
+
+header h1 {
+    text-shadow: 0px 0px 3px white;
+}
+
+body {
+    background-image: url(BGSite-MH1.png);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    text-align: center;
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+.box-mh1 {
+    width: fit-content;
+    margin: auto;
+    background-color: black;
+    border: 24px solid transparent;
+    border-image: url(Border-MH1.png) 24 24 round;
+    background-image: url(BG-MH1.png);
+    background-repeat: round;
+    background-clip: padding-box;
+}
+
+.border-mh1 {
+    display: inline-block;
+    background-color: black;
+    border: 20px solid transparent;
+    border-image: url(Btn-MH1.png) 20 20 round;
+    background-clip: padding-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.border-mhg {
+    font-size: large;
+    display: block;
+    background-color: black;
+    border: 20px solid transparent;
+    border-image: url(Btn-MHP.png) 20 20 round;
+    background-clip: padding-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.border-mhg:hover::before {
+    content: '>';
+}
+
+.border-mhg:hover::after {
+    content: '<';
+}
+
+.border-mhg:hover {
+    text-decoration: underline;
+}
+
+.dark {
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.753);
+    border: 20px solid rgba(0, 0, 0, 0.753);
+    border-radius: 10px;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    margin: auto;
+    text-shadow: 0px 0px 1px white;
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+select {
+    background-color: black;
+    border: 20px solid transparent;
+    border-image: url(Btn-MH1.png) 20 20 round;
+    background-clip: padding-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+pre {
+    display: block;
+    white-space: pre-wrap   
+  }
