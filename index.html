@@ -52,15 +52,16 @@
                         <li>Control Scheme Toggle (PS2 or PSP)</li>
                         <li>FOV Toggle (Original or Widescreen)</li>
                         <li>Camera Speed Setting</li>
-                        <li>Alternative Village Quest randomization.</li>
+                        <li>Alternative Village Quest randomization with new gathering quests</li>
+                        <li>Fixed ESP skill, check manual for details</li>
                     </ul>
                 </div>
                 <label class="border-mh1" for="mhgplus">Which MHG ISO are you patching?</label>
                 <select name="mhgplus" id="selgplus">
-                    <option value="usa">English Reminx V12</option>
+                    <option value="usa">English Reminx V13</option>
                     <option value="jpn">Unmodified Japanese</option>
                 </select>
-                <a href="GPlus/MHGJPlus EngV12 v1.0.xdelta" id="btnMHG" class="border-mhg">Click to Download</a>
+                <a href="GPlus/MHGJPlus EngV13 ESPFix.xdelta" id="btnMHG" class="border-mhg">Click to Download</a>
                 <br>
                 <a id="MHPBtn" href="manualmhg.html" class="border-mhg">Click to see the MHGPlus Web Manual</a>
             </div>
@@ -122,9 +123,9 @@
         const selVal = e.srcElement.value;
         const btn = document.getElementById('btnMHG');
         if(selVal==='usa'){
-            btn.href = 'GPlus/MHGJPlus EngV12 v1.0.xdelta';
+            btn.href = 'GPlus/MHGJPlus EngV13 ESPFix.xdelta';
         } else if(selVal==='jpn'){
-            btn.href = 'GPlus/MHGJPlus Jpn v1.0.xdelta';
+            btn.href = 'GPlus/MHGJPlus JPn ESPFix.xdelta';
         }
     });
 </script>
